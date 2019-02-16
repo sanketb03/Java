@@ -54,7 +54,7 @@ public class sorting_array
    }
    public static void main(String args[])throws IOException
    {
-      sort_by_array_and_function s = new 	 	    sort_by_array_and_function();
+      sorting_array s = new sorting_array();
       int a[]=new int[10];
       s.accept(a);
       s.bubblesort(a);
